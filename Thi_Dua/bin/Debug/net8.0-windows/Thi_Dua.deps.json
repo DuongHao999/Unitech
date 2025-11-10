@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Thi_Dua/1.0.0": {
+        "runtime": {
+          "Thi_Dua.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Thi_Dua/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
