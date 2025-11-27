@@ -14,6 +14,7 @@ namespace Thi_Dua
     {
         Controls.UserControlQLCB userControl1 = new Controls.UserControlQLCB();
         Controls.UserControlQLTK userControl2 = new Controls.UserControlQLTK();
+        Controls.UserControlQLTD userControl3 = new Controls.UserControlQLTD();
         public FormMain()
         {
             InitializeComponent();
@@ -43,6 +44,13 @@ namespace Thi_Dua
             panelMain.Controls.Clear();
             panelMain.Controls.Add(userControl2);
             userControl2.Dock = DockStyle.Fill;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(userControl3);
+            userControl3.Dock = DockStyle.Fill;
         }
     }
 }

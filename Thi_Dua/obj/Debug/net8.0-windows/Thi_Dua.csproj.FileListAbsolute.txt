@@ -1,8 +1,8 @@
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.exe
-D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.deps.json
-D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.runtimeconfig.json
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.dll
-D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.pdb
+D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.Controls.UserControlQLCB.resources
+D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.Controls.UserControlQLTD.resources
+D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.Controls.UserControlQLTK.resources
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.FormLogin.resources
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.FormMain.resources
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.Properties.Resources.resources
@@ -11,11 +11,12 @@ D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.GeneratedMSBuild
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.AssemblyInfoInputs.cache
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.AssemblyInfo.cs
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.csproj.CoreCompileInputs.cache
+D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.sourcelink.json
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.dll
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\refint\Thi_Dua.dll
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.pdb
+D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.deps.json
+D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.runtimeconfig.json
+D:\VB2\Unitech\Thi_Dua\Thi_Dua\bin\Debug\net8.0-windows\Thi_Dua.pdb
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.genruntimeconfig.cache
 D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\ref\Thi_Dua.dll
-D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.Controls.UserControlQLCB.resources
-D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.Controls.UserControlQLTK.resources
-D:\VB2\Unitech\Thi_Dua\Thi_Dua\obj\Debug\net8.0-windows\Thi_Dua.sourcelink.json

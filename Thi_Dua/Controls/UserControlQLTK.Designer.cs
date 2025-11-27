@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            tabControl1 = new TabControl();
+            tabPage1 = new TabPage();
+            tabPage2 = new TabPage();
             panel2 = new Panel();
             comboBox1 = new ComboBox();
             label4 = new Label();
@@ -44,10 +47,56 @@
             panel1 = new Panel();
             panel3 = new Panel();
             listView1 = new ListView();
+            panel4 = new Panel();
+            label5 = new Label();
+            button2 = new Button();
+            textBox4 = new TextBox();
+            label6 = new Label();
+            textBox5 = new TextBox();
+            label7 = new Label();
+            textBox6 = new TextBox();
+            label8 = new Label();
+            textBox7 = new TextBox();
+            tabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
+            panel4.SuspendLayout();
             SuspendLayout();
+            // 
+            // tabControl1
+            // 
+            tabControl1.Controls.Add(tabPage1);
+            tabControl1.Controls.Add(tabPage2);
+            tabControl1.Location = new Point(3, 3);
+            tabControl1.Name = "tabControl1";
+            tabControl1.SelectedIndex = 0;
+            tabControl1.Size = new Size(1630, 774);
+            tabControl1.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            tabPage1.BackColor = Color.LightSkyBlue;
+            tabPage1.Controls.Add(panel4);
+            tabPage1.Location = new Point(4, 34);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(1622, 736);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Đổi mật khẩu";
+            // 
+            // tabPage2
+            // 
+            tabPage2.BackColor = Color.LightSkyBlue;
+            tabPage2.Controls.Add(panel1);
+            tabPage2.Location = new Point(4, 34);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(1622, 736);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Tài khoản";
             // 
             // panel2
             // 
@@ -182,11 +231,11 @@
             panel1.Controls.Add(panel3);
             panel1.Controls.Add(panel2);
             panel1.ForeColor = SystemColors.ActiveCaptionText;
-            panel1.Location = new Point(187, 86);
+            panel1.Location = new Point(195, 80);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(0, 20, 20, 20);
             panel1.Size = new Size(1233, 576);
-            panel1.TabIndex = 1;
+            panel1.TabIndex = 2;
             // 
             // panel3
             // 
@@ -205,38 +254,150 @@
             listView1.TabIndex = 0;
             listView1.UseCompatibleStateImageBehavior = false;
             // 
+            // panel4
+            // 
+            panel4.BorderStyle = BorderStyle.Fixed3D;
+            panel4.Controls.Add(textBox7);
+            panel4.Controls.Add(textBox6);
+            panel4.Controls.Add(label8);
+            panel4.Controls.Add(label5);
+            panel4.Controls.Add(button2);
+            panel4.Controls.Add(textBox4);
+            panel4.Controls.Add(label6);
+            panel4.Controls.Add(textBox5);
+            panel4.Controls.Add(label7);
+            panel4.Location = new Point(428, 113);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(716, 482);
+            panel4.TabIndex = 2;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.Location = new Point(87, 232);
+            label5.Name = "label5";
+            label5.Size = new Size(130, 25);
+            label5.TabIndex = 15;
+            label5.Text = "Mật khẩu mới:";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(293, 373);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 12;
+            button2.Text = "Cập nhật";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(252, 145);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(358, 31);
+            textBox4.TabIndex = 4;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Location = new Point(87, 145);
+            label6.Name = "label6";
+            label6.Size = new Size(117, 25);
+            label6.TabIndex = 3;
+            label6.Text = "Mật khẩu cũ:";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(252, 58);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(358, 31);
+            textBox5.TabIndex = 4;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.Location = new Point(87, 64);
+            label7.Name = "label7";
+            label7.Size = new Size(138, 25);
+            label7.TabIndex = 3;
+            label7.Text = "Tên đăng nhập:";
+            // 
+            // textBox6
+            // 
+            textBox6.Location = new Point(252, 229);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(358, 31);
+            textBox6.TabIndex = 16;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.Location = new Point(87, 309);
+            label8.Name = "label8";
+            label8.Size = new Size(165, 25);
+            label8.TabIndex = 15;
+            label8.Text = "Nhập lại mật khẩu:";
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(252, 306);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(358, 31);
+            textBox7.TabIndex = 16;
+            // 
             // UserControlQLTK
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            Controls.Add(panel1);
+            Controls.Add(tabControl1);
             Name = "UserControlQLTK";
             Size = new Size(1633, 777);
+            tabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
+        private TabControl tabControl1;
+        private TabPage tabPage1;
+        private TabPage tabPage2;
+        private Panel panel1;
+        private Panel panel3;
+        private ListView listView1;
         private Panel panel2;
+        private ComboBox comboBox1;
+        private Label label4;
+        private CheckBox checkBox1;
         private Button button5;
         private Button button4;
         private Button button3;
         private TextBox textBox2;
         private Label label2;
-        private TextBox textBox1;
-        private Label label1;
-        private Panel panel1;
-        private Panel panel3;
         private TextBox textBox3;
         private Label label3;
-        private ListView listView1;
-        private ComboBox comboBox1;
-        private Label label4;
-        private CheckBox checkBox1;
+        private TextBox textBox1;
+        private Label label1;
+        private Panel panel4;
+        private Label label5;
+        private Button button2;
+        private TextBox textBox4;
+        private Label label6;
+        private TextBox textBox5;
+        private Label label7;
+        private TextBox textBox7;
+        private TextBox textBox6;
+        private Label label8;
     }
 }

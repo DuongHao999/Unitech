@@ -4,6 +4,9 @@
     <Compile Update="Controls\UserControlQLCB.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Controls\UserControlQLTD.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Controls\UserControlQLTK.cs">
       <SubType>UserControl</SubType>
     </Compile>

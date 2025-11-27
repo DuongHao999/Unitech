@@ -77,6 +77,18 @@
             pictureBox1 = new PictureBox();
             tabPage2 = new TabPage();
             panel5 = new Panel();
+            panel6 = new Panel();
+            listView2 = new ListView();
+            panel7 = new Panel();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            textBox9 = new TextBox();
+            label16 = new Label();
+            textBox10 = new TextBox();
+            label17 = new Label();
+            textBox11 = new TextBox();
+            label18 = new Label();
             tabPage3 = new TabPage();
             tabPage4 = new TabPage();
             tabControl1.SuspendLayout();
@@ -87,6 +99,9 @@
             panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             tabPage2.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
+            panel7.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -571,6 +586,7 @@
             // 
             // tabPage2
             // 
+            tabPage2.BackColor = Color.LightSkyBlue;
             tabPage2.Controls.Add(panel5);
             tabPage2.Location = new Point(4, 34);
             tabPage2.Name = "tabPage2";
@@ -578,15 +594,132 @@
             tabPage2.Size = new Size(1625, 739);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Vai trò";
-            tabPage2.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
-            panel5.BackColor = Color.LightSkyBlue;
-            panel5.Location = new Point(633, 147);
+            panel5.BackColor = Color.Transparent;
+            panel5.BorderStyle = BorderStyle.Fixed3D;
+            panel5.Controls.Add(panel6);
+            panel5.Controls.Add(panel7);
+            panel5.ForeColor = SystemColors.ActiveCaptionText;
+            panel5.Location = new Point(180, 66);
             panel5.Name = "panel5";
-            panel5.Size = new Size(300, 150);
-            panel5.TabIndex = 0;
+            panel5.Padding = new Padding(0, 20, 20, 20);
+            panel5.Size = new Size(1233, 576);
+            panel5.TabIndex = 2;
+            // 
+            // panel6
+            // 
+            panel6.BorderStyle = BorderStyle.Fixed3D;
+            panel6.Controls.Add(listView2);
+            panel6.Location = new Point(505, 14);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(707, 511);
+            panel6.TabIndex = 3;
+            // 
+            // listView2
+            // 
+            listView2.Location = new Point(20, 24);
+            listView2.Name = "listView2";
+            listView2.Size = new Size(659, 463);
+            listView2.TabIndex = 0;
+            listView2.UseCompatibleStateImageBehavior = false;
+            // 
+            // panel7
+            // 
+            panel7.BorderStyle = BorderStyle.Fixed3D;
+            panel7.Controls.Add(button10);
+            panel7.Controls.Add(button11);
+            panel7.Controls.Add(button12);
+            panel7.Controls.Add(textBox9);
+            panel7.Controls.Add(label16);
+            panel7.Controls.Add(textBox10);
+            panel7.Controls.Add(label17);
+            panel7.Controls.Add(textBox11);
+            panel7.Controls.Add(label18);
+            panel7.Location = new Point(17, 14);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(482, 511);
+            panel7.TabIndex = 1;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(342, 453);
+            button10.Name = "button10";
+            button10.Size = new Size(112, 34);
+            button10.TabIndex = 13;
+            button10.Text = "Xóa";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(26, 453);
+            button11.Name = "button11";
+            button11.Size = new Size(112, 34);
+            button11.TabIndex = 12;
+            button11.Text = "Tạo mới";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(184, 453);
+            button12.Name = "button12";
+            button12.Size = new Size(112, 34);
+            button12.TabIndex = 11;
+            button12.Text = "Chỉnh sửa";
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            textBox9.Location = new Point(170, 156);
+            textBox9.Multiline = true;
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(284, 229);
+            textBox9.TabIndex = 4;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label16.Location = new Point(26, 156);
+            label16.Name = "label16";
+            label16.Size = new Size(65, 25);
+            label16.TabIndex = 3;
+            label16.Text = "Mô tả:";
+            // 
+            // textBox10
+            // 
+            textBox10.Location = new Point(170, 83);
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(284, 31);
+            textBox10.TabIndex = 4;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label17.Location = new Point(26, 86);
+            label17.Name = "label17";
+            label17.Size = new Size(103, 25);
+            label17.TabIndex = 3;
+            label17.Text = "Tên vai trò:";
+            // 
+            // textBox11
+            // 
+            textBox11.Location = new Point(170, 21);
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(284, 31);
+            textBox11.TabIndex = 4;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label18.Location = new Point(26, 24);
+            label18.Name = "label18";
+            label18.Size = new Size(100, 25);
+            label18.TabIndex = 3;
+            label18.Text = "Mã vai trò:";
             // 
             // tabPage3
             // 
@@ -627,6 +760,10 @@
             panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             tabPage2.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -680,8 +817,20 @@
         private Button button2;
         private PictureBox pictureBox1;
         private TabPage tabPage2;
-        private Panel panel5;
         private TabPage tabPage3;
         private TabPage tabPage4;
+        private Panel panel5;
+        private Panel panel6;
+        private ListView listView2;
+        private Panel panel7;
+        private Button button10;
+        private Button button11;
+        private Button button12;
+        private Label label16;
+        private TextBox textBox10;
+        private Label label17;
+        private TextBox textBox11;
+        private Label label18;
+        private TextBox textBox9;
     }
 }

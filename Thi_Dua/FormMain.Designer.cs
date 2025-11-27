@@ -30,6 +30,7 @@ namespace Thi_Dua
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            button1 = new Button();
             btnQLCB = new Button();
             btnQLTD = new Button();
             panel2 = new Panel();
@@ -44,12 +45,23 @@ namespace Thi_Dua
             // panel1
             // 
             panel1.BackColor = Color.LightGray;
+            panel1.Controls.Add(button1);
             panel1.Controls.Add(btnQLCB);
             panel1.Controls.Add(btnQLTD);
             panel1.Location = new Point(1, 64);
             panel1.Name = "panel1";
             panel1.Size = new Size(280, 777);
             panel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(3, 104);
+            button1.Name = "button1";
+            button1.Size = new Size(274, 34);
+            button1.TabIndex = 1;
+            button1.Text = "Quản lý thi đua";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // btnQLCB
             // 
@@ -142,6 +154,7 @@ namespace Thi_Dua
         private Button btnQLCB;
         private PictureBox pictureBox1;
         private Label label1;
+        private Button button1;
         //private Label label1;
     }
 }

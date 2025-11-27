@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\VB2\\Unitech\\Thi_Dua\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\controls\\usercontrolqlcb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqlcb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\controls\\usercontrolqltk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqltk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|D:\\VB2\\Unitech\\Thi_Dua\\thi_dua\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|D:\\VB2\\Unitech\\Thi_Dua\\thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\controls\\usercontrolqlcb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqlcb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|D:\\VB2\\Unitech\\Thi_Dua\\thi_dua\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|D:\\VB2\\Unitech\\Thi_Dua\\thi_dua\\controls\\usercontrolqltd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqltd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|D:\\VB2\\Unitech\\Thi_Dua\\thi_dua\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\thi_dua.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\thi_dua.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|D:\\VB2\\Unitech\\Thi_Dua\\thi_dua\\controls\\usercontrolqlcb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqlcb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|D:\\VB2\\Unitech\\Thi_Dua\\thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|d:\\vb2\\unitech\\thi_dua\\thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A0AAF07-3100-40DB-A4C6-6E8AA84FDEB9}|Thi_Dua\\Thi_Dua.csproj|solutionrelative:thi_dua\\controls\\usercontrolqltk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,23 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserControlQLTK.Designer.cs",
-              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLTK.Designer.cs",
-              "RelativeDocumentMoniker": "Thi_Dua\\Controls\\UserControlQLTK.Designer.cs",
-              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLTK.Designer.cs",
-              "RelativeToolTip": "Thi_Dua\\Controls\\UserControlQLTK.Designer.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAswK8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:34:57.624Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Thi_Dua\\FormLogin.cs",
+              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormLogin.cs",
+              "RelativeToolTip": "Thi_Dua\\FormLogin.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:55:20.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormLogin.cs",
+              "RelativeDocumentMoniker": "Thi_Dua\\FormLogin.cs",
+              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormLogin.cs [Design]",
+              "RelativeToolTip": "Thi_Dua\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:55:18.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserControlQLTD.cs [Design]",
+              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLTD.cs",
+              "RelativeDocumentMoniker": "Thi_Dua\\Controls\\UserControlQLTD.cs",
+              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLTD.cs [Design]",
+              "RelativeToolTip": "Thi_Dua\\Controls\\UserControlQLTD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T13:49:03.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FormMain.cs [Design]",
               "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.cs",
               "RelativeDocumentMoniker": "Thi_Dua\\FormMain.cs",
@@ -73,7 +100,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.cs",
+              "RelativeDocumentMoniker": "Thi_Dua\\FormMain.cs",
+              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.cs",
+              "RelativeToolTip": "Thi_Dua\\FormMain.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAEwDQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T13:31:41.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserControlQLCB.cs [Design]",
+              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLCB.cs",
+              "RelativeDocumentMoniker": "Thi_Dua\\Controls\\UserControlQLCB.cs",
+              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLCB.cs [Design]",
+              "RelativeToolTip": "Thi_Dua\\Controls\\UserControlQLCB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T02:22:27.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "Thi_Dua\\FormMain.Designer.cs",
+              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.Designer.cs",
+              "RelativeToolTip": "Thi_Dua\\FormMain.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T07:45:45.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserControlQLTK.cs [Design]",
               "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLTK.cs",
               "RelativeDocumentMoniker": "Thi_Dua\\Controls\\UserControlQLTK.cs",
@@ -84,31 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserControlQLCB.cs [Design]",
-              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLCB.cs",
-              "RelativeDocumentMoniker": "Thi_Dua\\Controls\\UserControlQLCB.cs",
-              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLCB.cs [Design]",
-              "RelativeToolTip": "Thi_Dua\\Controls\\UserControlQLCB.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T02:22:27.215Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserControlQLCB.cs",
-              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLCB.cs",
-              "RelativeDocumentMoniker": "Thi_Dua\\Controls\\UserControlQLCB.cs",
-              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLCB.cs",
-              "RelativeToolTip": "Thi_Dua\\Controls\\UserControlQLCB.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAD4vzMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T02:49:55.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UserControlQLTK.cs",
               "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Controls\\UserControlQLTK.cs",
               "RelativeDocumentMoniker": "Thi_Dua\\Controls\\UserControlQLTK.cs",
@@ -117,42 +155,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T08:22:52.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormMain.cs",
-              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.cs",
-              "RelativeDocumentMoniker": "Thi_Dua\\FormMain.cs",
-              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.cs",
-              "RelativeToolTip": "Thi_Dua\\FormMain.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T13:31:41.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormMain.Designer.cs",
-              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.Designer.cs",
-              "RelativeDocumentMoniker": "Thi_Dua\\FormMain.Designer.cs",
-              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\FormMain.Designer.cs",
-              "RelativeToolTip": "Thi_Dua\\FormMain.Designer.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAWwF4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T07:45:45.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Thi_Dua.csproj",
-              "DocumentMoniker": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Thi_Dua.csproj",
-              "RelativeDocumentMoniker": "Thi_Dua\\Thi_Dua.csproj",
-              "ToolTip": "D:\\VB2\\Unitech\\Thi_Dua\\Thi_Dua\\Thi_Dua.csproj",
-              "RelativeToolTip": "Thi_Dua\\Thi_Dua.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-08T13:17:11.15Z"
             }
           ]
         }
