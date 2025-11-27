@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Thi_Dua.DAO;
 
 namespace Thi_Dua.Controls
 {
@@ -15,6 +16,17 @@ namespace Thi_Dua.Controls
         public UserControlQLTK()
         {
             InitializeComponent();
+            LoadAccountList();
+        }
+
+        private void LoadAccountList()
+        {
+            string query = "select * from GIANG_VIEN";
+
+            DataProvider provider = new DataProvider();
+
+            dtgvAccount.DataSource = provider.ExecuteQuery(query);
+            //throw new NotImplementedException();
         }
     }
 }

@@ -1,9 +1,14 @@
+﻿using Microsoft.Data.SqlClient;
+using System.Data;
+using Thi_Dua.DAO;
+
 namespace Thi_Dua
 {
     public partial class FormLogin : Form
     {
         public FormLogin()
         {
+            //Test();
             InitializeComponent();
         }
 
@@ -52,5 +57,15 @@ namespace Thi_Dua
                 this.Show();
             }
         }
+
+        // Load function
+        private void Test()
+        {
+           String query = "select * from GIANG_VIEN";
+            DataProvider dataProvider = new DataProvider();
+            dataProvider.ExecuteQuery(query);
+           
+        }
+        
     }
 }
