@@ -49,23 +49,34 @@ namespace Thi_Dua
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if ( txtUserName.Text == "text" && txtPass.Text =="123")
+            string userName = txtUserName.Text;
+            string passWord = txtPassWord.Text;
+            if ( Login(userName, passWord) )
             {
                 FormMain formMain = new FormMain();
                 this.Hide();
                 formMain.ShowDialog();
                 this.Show();
             }
+            else
+            {
+                MessageBox.Show("Sai tên tài khoản hoặc mật khẩu!");
+            }
+            //if ( txtUserName.Text == "text" && txtPass.Text =="123")
+            //{
+            //    FormMain formMain = new FormMain();
+            //    this.Hide();
+            //    formMain.ShowDialog();
+            //    this.Show();
+            //}
         }
 
-        // Load function
-        private void Test()
+
+        // Login function
+        bool Login(string userName, string passWord)
         {
-           String query = "select * from GIANG_VIEN";
-            DataProvider dataProvider = new DataProvider();
-            dataProvider.ExecuteQuery(query);
-           
+            return AccountDAO.Instance.Login(userName, passWord);
         }
-        
+
     }
 }

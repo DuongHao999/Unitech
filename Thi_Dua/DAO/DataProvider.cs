@@ -10,6 +10,16 @@ namespace Thi_Dua.DAO
 {
     public class DataProvider
     {
+        private static DataProvider instance; // Ctrl + R + E
+
+        public static DataProvider Instance
+        {
+            get { if (instance == null) instance = new DataProvider(); return DataProvider.instance; }
+            private set { DataProvider.instance = value; }
+        }
+
+        private DataProvider() { }
+
         //private string connectionSTR = "Data Source=.\\sqlexpress;Initial Catalog=QuanLyQuanCafe;Integrated Security=True";
         private string connectionSTR = "Server=localhost\\SQLEXPRESS;Database=QL_ThiDua_Khoa;Trusted_Connection=True;TrustServerCertificate=True;";
 

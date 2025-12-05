@@ -16,17 +16,17 @@ namespace Thi_Dua.Controls
         public UserControlQLTK()
         {
             InitializeComponent();
-            LoadAccountList();
+            //LoadAccountList();
         }
 
-        private void LoadAccountList()
-        {
-            string query = "select * from GIANG_VIEN";
+        //private void LoadAccountList()
+        //{
+        //    string query = "select * from GIANG_VIEN";
 
-            DataProvider provider = new DataProvider();
+        //    DataProvider provider = new DataProvider();
 
-            dtgvAccount.DataSource = provider.ExecuteQuery(query);
-            //throw new NotImplementedException();
-        }
+        //    dtgvAccount.DataSource = provider.ExecuteQuery(query);
+        //    //throw new NotImplementedException();
+        //}
     }
 }

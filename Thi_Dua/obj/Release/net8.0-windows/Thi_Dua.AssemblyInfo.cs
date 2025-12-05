@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Thi_Dua")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5edb211fa83309f91430cd0e660ab97ccd0f24cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0519fa71efea5e48e8d5577b3b938d7a7f2b25a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Thi_Dua")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Thi_Dua")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

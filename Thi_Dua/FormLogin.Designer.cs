@@ -32,7 +32,7 @@
             label1 = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
-            txtPass = new TextBox();
+            txtPassWord = new TextBox();
             txtUserName = new TextBox();
             panel4 = new Panel();
             pictureBox3 = new PictureBox();
@@ -77,7 +77,7 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(txtPass);
+            panel2.Controls.Add(txtPassWord);
             panel2.Controls.Add(txtUserName);
             panel2.Controls.Add(panel4);
             panel2.Controls.Add(pictureBox3);
@@ -89,13 +89,13 @@
             panel2.TabIndex = 3;
             panel2.Paint += panel2_Paint;
             // 
-            // txtPass
+            // txtPassWord
             // 
-            txtPass.Location = new Point(47, 87);
-            txtPass.Name = "txtPass";
-            txtPass.Size = new Size(239, 31);
-            txtPass.TabIndex = 4;
-            txtPass.UseSystemPasswordChar = true;
+            txtPassWord.Location = new Point(47, 87);
+            txtPassWord.Name = "txtPassWord";
+            txtPassWord.Size = new Size(239, 31);
+            txtPassWord.TabIndex = 4;
+            txtPassWord.UseSystemPasswordChar = true;
             // 
             // txtUserName
             // 
@@ -170,7 +170,7 @@
             lbExit.Text = "EXIT";
             lbExit.Click += label2_Click;
             // 
-            // Form1
+            // FormLogin
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -183,7 +183,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Form1";
+            Name = "FormLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             Load += Form1_Load;
@@ -207,7 +207,7 @@
         private Panel panel3;
         private PictureBox pictureBox2;
         private Button btnLogin;
-        private TextBox txtPass;
+        private TextBox txtPassWord;
         private TextBox txtUserName;
         private Label lbExit;
     }
