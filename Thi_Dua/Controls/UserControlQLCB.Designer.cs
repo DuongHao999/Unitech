@@ -78,16 +78,16 @@
             tabPage2 = new TabPage();
             panel5 = new Panel();
             panel6 = new Panel();
-            listView2 = new ListView();
+            dtgvRole = new DataGridView();
             panel7 = new Panel();
             button10 = new Button();
-            button11 = new Button();
+            btnRoleCreate = new Button();
             button12 = new Button();
-            textBox9 = new TextBox();
+            txtRoleDcribe = new TextBox();
             label16 = new Label();
-            textBox10 = new TextBox();
+            txtRoleName = new TextBox();
             label17 = new Label();
-            textBox11 = new TextBox();
+            txtRoleId = new TextBox();
             label18 = new Label();
             tabPage3 = new TabPage();
             tabPage4 = new TabPage();
@@ -101,6 +101,7 @@
             tabPage2.SuspendLayout();
             panel5.SuspendLayout();
             panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dtgvRole).BeginInit();
             panel7.SuspendLayout();
             SuspendLayout();
             // 
@@ -611,31 +612,35 @@
             // panel6
             // 
             panel6.BorderStyle = BorderStyle.Fixed3D;
-            panel6.Controls.Add(listView2);
+            panel6.Controls.Add(dtgvRole);
             panel6.Location = new Point(505, 14);
             panel6.Name = "panel6";
             panel6.Size = new Size(707, 511);
             panel6.TabIndex = 3;
             // 
-            // listView2
+            // dtgvRole
             // 
-            listView2.Location = new Point(20, 24);
-            listView2.Name = "listView2";
-            listView2.Size = new Size(659, 463);
-            listView2.TabIndex = 0;
-            listView2.UseCompatibleStateImageBehavior = false;
+            dtgvRole.BackgroundColor = SystemColors.ButtonHighlight;
+            dtgvRole.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtgvRole.Dock = DockStyle.Fill;
+            dtgvRole.Location = new Point(0, 0);
+            dtgvRole.Name = "dtgvRole";
+            dtgvRole.RowHeadersWidth = 62;
+            dtgvRole.Size = new Size(703, 507);
+            dtgvRole.TabIndex = 0;
+            dtgvRole.CellClick += dtgvRole_CellClick;
             // 
             // panel7
             // 
             panel7.BorderStyle = BorderStyle.Fixed3D;
             panel7.Controls.Add(button10);
-            panel7.Controls.Add(button11);
+            panel7.Controls.Add(btnRoleCreate);
             panel7.Controls.Add(button12);
-            panel7.Controls.Add(textBox9);
+            panel7.Controls.Add(txtRoleDcribe);
             panel7.Controls.Add(label16);
-            panel7.Controls.Add(textBox10);
+            panel7.Controls.Add(txtRoleName);
             panel7.Controls.Add(label17);
-            panel7.Controls.Add(textBox11);
+            panel7.Controls.Add(txtRoleId);
             panel7.Controls.Add(label18);
             panel7.Location = new Point(17, 14);
             panel7.Name = "panel7";
@@ -651,14 +656,15 @@
             button10.Text = "Xóa";
             button10.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // btnRoleCreate
             // 
-            button11.Location = new Point(26, 453);
-            button11.Name = "button11";
-            button11.Size = new Size(112, 34);
-            button11.TabIndex = 12;
-            button11.Text = "Tạo mới";
-            button11.UseVisualStyleBackColor = true;
+            btnRoleCreate.Location = new Point(26, 453);
+            btnRoleCreate.Name = "btnRoleCreate";
+            btnRoleCreate.Size = new Size(112, 34);
+            btnRoleCreate.TabIndex = 12;
+            btnRoleCreate.Text = "Tạo mới";
+            btnRoleCreate.UseVisualStyleBackColor = true;
+            btnRoleCreate.Click += btnRoleCreate_Click;
             // 
             // button12
             // 
@@ -669,13 +675,13 @@
             button12.Text = "Chỉnh sửa";
             button12.UseVisualStyleBackColor = true;
             // 
-            // textBox9
+            // txtRoleDcribe
             // 
-            textBox9.Location = new Point(170, 156);
-            textBox9.Multiline = true;
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(284, 229);
-            textBox9.TabIndex = 4;
+            txtRoleDcribe.Location = new Point(170, 156);
+            txtRoleDcribe.Multiline = true;
+            txtRoleDcribe.Name = "txtRoleDcribe";
+            txtRoleDcribe.Size = new Size(284, 229);
+            txtRoleDcribe.TabIndex = 4;
             // 
             // label16
             // 
@@ -687,12 +693,12 @@
             label16.TabIndex = 3;
             label16.Text = "Mô tả:";
             // 
-            // textBox10
+            // txtRoleName
             // 
-            textBox10.Location = new Point(170, 83);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(284, 31);
-            textBox10.TabIndex = 4;
+            txtRoleName.Location = new Point(170, 83);
+            txtRoleName.Name = "txtRoleName";
+            txtRoleName.Size = new Size(284, 31);
+            txtRoleName.TabIndex = 4;
             // 
             // label17
             // 
@@ -704,12 +710,13 @@
             label17.TabIndex = 3;
             label17.Text = "Tên vai trò:";
             // 
-            // textBox11
+            // txtRoleId
             // 
-            textBox11.Location = new Point(170, 21);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(284, 31);
-            textBox11.TabIndex = 4;
+            txtRoleId.Location = new Point(170, 21);
+            txtRoleId.Name = "txtRoleId";
+            txtRoleId.Size = new Size(284, 31);
+            txtRoleId.TabIndex = 4;
+            txtRoleId.TextChanged += txtRoleId_TextChanged;
             // 
             // label18
             // 
@@ -762,6 +769,7 @@
             tabPage2.ResumeLayout(false);
             panel5.ResumeLayout(false);
             panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dtgvRole).EndInit();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
             ResumeLayout(false);
@@ -821,16 +829,16 @@
         private TabPage tabPage4;
         private Panel panel5;
         private Panel panel6;
-        private ListView listView2;
         private Panel panel7;
         private Button button10;
-        private Button button11;
+        private Button btnRoleCreate;
         private Button button12;
         private Label label16;
-        private TextBox textBox10;
+        private TextBox txtRoleName;
         private Label label17;
-        private TextBox textBox11;
+        private TextBox txtRoleId;
         private Label label18;
-        private TextBox textBox9;
+        private TextBox txtRoleDcribe;
+        private DataGridView dtgvRole;
     }
 }

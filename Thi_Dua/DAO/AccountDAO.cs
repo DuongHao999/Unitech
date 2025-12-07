@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Thi_Dua.DAO
 {
-    internal class AccountDAO
+    public class AccountDAO
     {
         private static AccountDAO instance;
 
